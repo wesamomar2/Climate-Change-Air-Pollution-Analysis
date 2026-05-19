@@ -1,6 +1,6 @@
 # 🌍 Climate Change Air Pollution Analysis
 
-> Machine Learning project for predicting NO₂ concentration to support climate change mitigation and air quality monitoring.
+> Machine Learning project for predicting NO₂ concentration using different regression models to support climate change mitigation and air quality monitoring.
 
 ---
 
@@ -8,12 +8,12 @@
 
 This project focuses on predicting Nitrogen Dioxide (NO₂) concentration using Machine Learning algorithms.
 
-NO₂ is one of the most dangerous air pollutants caused mainly by:
-- Vehicles
+NO₂ is one of the most harmful air pollutants caused mainly by:
+- Vehicle emissions
 - Industrial activities
 - Fossil fuel combustion
 
-The project compares different ML models to identify the best-performing approach for air quality prediction.
+The project compares multiple ML models to determine the best-performing approach for air quality prediction.
 
 ---
 
@@ -22,9 +22,9 @@ The project compares different ML models to identify the best-performing approac
 | Model | Description |
 |------|------|
 | Linear Regression | Baseline regression model |
-| Decision Tree | Tree-based prediction model |
-| Random Forest | Ensemble learning model |
-| SVR | Support Vector Regression |
+| Decision Tree Regression | Tree-based ML model |
+| Random Forest Regression | Ensemble learning model |
+| Support Vector Regression | Support Vector Machine for regression |
 
 ---
 
@@ -32,7 +32,7 @@ The project compares different ML models to identify the best-performing approac
 
 - Dataset: Air Quality Dataset
 - Samples: 9357 records
-- Target: NO₂ Concentration
+- Target Variable: NO₂ Concentration
 
 ---
 
@@ -46,7 +46,7 @@ The project compares different ML models to identify the best-performing approac
 
 ---
 
-## 🛠 Technologies
+## 🛠 Technologies Used
 
 - Python
 - Pandas
@@ -60,7 +60,18 @@ The project compares different ML models to identify the best-performing approac
 
 ## 📷 Project Poster
 
-The research poster is included in this repository.
+<p align="center">
+  <img src="images/poster.png" width="700">
+</p>
+
+---
+
+## 🎯 Project Objectives
+
+- Predict NO₂ concentration accurately
+- Analyze air pollution patterns
+- Compare machine learning algorithms
+- Support climate change mitigation strategies
 
 ---
 
@@ -69,26 +80,10 @@ The research poster is included in this repository.
 ```bash
 Climate-Change-Air-Pollution-Analysis/
 │
+├── images/
+│   └── poster.png
+│
 ├── README.md
-├── poster.pdf
 ├── notebook.ipynb
 ├── dataset.csv
-└── images/
-```
-
----
-
-## 🎯 Objectives
-
-- Predict NO₂ concentration accurately
-- Analyze air pollution trends
-- Compare ML algorithms
-- Support climate change mitigation strategies
----
-
-## ⭐ Future Improvements
-
-- Deep Learning implementation
-- Real-time prediction system
-- Interactive dashboard
-- Deployment using Streamlit
+└── requirements.txt
