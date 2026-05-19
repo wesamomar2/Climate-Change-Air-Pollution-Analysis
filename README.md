@@ -61,7 +61,7 @@ The project compares multiple ML models to determine the best-performing approac
 ## 📷 Project Poster
 
 <p align="center">
-  <img src="images/poster.png" width="700">
+  <img src="poster.png" width="700">
 </p>
 
 ---
